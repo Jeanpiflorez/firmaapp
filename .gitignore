@@ -1,0 +1,66 @@
+# Bytecode de Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Archivos del entorno virtual
+venv/
+env/
+ENV/
+.venv/
+.ENV/
+.venv.bak/
+
+# Archivos de configuración locales
+*.env
+*.ini
+*.local
+*.cfg
+
+# Archivos temporales / backup
+*.log
+*.tmp
+*.bak
+*.swp
+.DS_Store
+Thumbs.db
+
+# Salidas de PyInstaller
+dist/
+build/
+*.spec
+
+# Archivos de bases de datos
+*.sqlite3
+*.db
+data/firma_app_prevrenal.db
+
+# Archivos de usuario de VSCode / IDEs
+.vscode/
+.idea/
+*.code-workspace
+
+# Archivos generados por Tkinter o PIL (firmas, imágenes temporales)
+*.png
+*.jpg
+*.jpeg
+
+# Archivos de sistema
+ehthumbs.db
+Icon?
+desktop.ini
+
+# Archivos de test, si es que se generan
+coverage/
+htmlcov/
+.tox/
+.nox/
+.pytest_cache/
+
+# Archivos de documentación generada
+*.pdf
+*.docx
+*.xlsx
+
+#archivos ejecutables
+*.exe
