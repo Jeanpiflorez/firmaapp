@@ -73,26 +73,23 @@
 ## 🚀 Instrucciones de Uso
 
     - Clona el repositorio: 
-    git clone https://github.com/Jeanpiflorez/FirmaApp/tree/master
-    cd firmaapp
-
+    - git clone https://github.com/Jeanpiflorez/FirmaApp
+    - cd firmaapp
     -  Instala las dependencias:
-    pip install -r requirements.txt
-
+       pip install -r requirements.txt
     - Ejecuta la aplicación:
-    python main.py
-
+      python main.py
     - Configura las rutas (solo la primera vez).
-
-    Después de eso, el sistema se ejecutará de forma silenciosa y solo mostrará la ventana cuando haya un documento pendiente de firmar.
+    - Después de eso, el sistema se ejecutará de forma silenciosa y solo mostrará la ventana cuando haya 
+      un documento pendiente de firmar.
 
 📦 Compilación a Ejecutable
 
     - Con consola
-    pyinstaller main.py --name=FirmaApp --onefile --icon=assets/firmaAppIcono.ico
+    pyinstaller src/main.py --name=FirmaApp --onefile --icon=assets/firmaAppIcono.ico
 
     - Sin consola
-    pyinstaller main.py --name=FirmaApp --noconsole --onefile --icon=assets/firmaAppIcono.ico
+    pyinstaller src/main.py --name=FirmaApp --noconsole --onefile --icon=assets/firmaAppIcono.ico
 
 🧑‍💻 Autor
 

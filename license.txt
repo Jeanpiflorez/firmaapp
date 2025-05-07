@@ -1,6 +1,33 @@
+Nombre del software: FirmaApp
+Versión: 1.0
+Fecha: 07 de Mayo de 2025
+
 LICENCIA DE USO INTERNO
 
-Este software es propiedad de Digital Solutions Prevrenal - Fundación Prevrenal.
-Queda estrictamente prohibida su distribución, modificación o uso fuera del ámbito autorizado por la empresa.
+Este software ha sido desarrollado para uso exclusivo de Digital Solutions Prevrenal - Fundación Prevrenal. 
+Su utilización está restringida únicamente a los fines autorizados por la Fundación.
 
-© 2025 Digital Solutions Prevrenal - Fundación Prevrenal. Todos los derechos reservados.
+DERECHOS DE PROPIEDAD
+
+El presente software, incluyendo su código fuente, documentación, interfaces gráficas y configuraciones, es 
+propiedad intelectual de Digital Solutions Prevrenal - Fundación Prevrenal.
+Queda prohibida su reproducción, distribución, modificación, venta o uso en entornos distintos al autorizado 
+expresamente por la Fundación.
+
+RECONOCIMIENTO DE AUTORÍA
+
+El desarrollo de este sistema ha sido realizado por Jean Pierre Geovany Florez Marin, en calidad de 
+desarrollador de software dentro del equipo técnico de la Fundación. Su contribución es reconocida formalmente 
+en esta licencia.
+
+PORTAFOLIO Y REFERENCIA PROFESIONAL
+
+El desarrollador está autorizado a mencionar su participación en este proyecto como parte de su experiencia 
+profesional, y podrá mostrar capturas de pantalla, estructura general del sistema o arquitectura técnica, 
+siempre que no incluya datos sensibles ni código fuente confidencial.
+
+RESERVA DE DERECHOS
+
+Todos los derechos no concedidos expresamente quedan reservados.
+© 2025 Digital Solutions Prevrenal - Fundación Prevrenal.
+Todos los derechos reservados.
