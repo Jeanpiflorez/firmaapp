@@ -1,6 +1,6 @@
 # FirmaApp - Sistema de Firmas Digitales para Constancias Médicas
 
-**FirmaApp** es una aplicación desarrollada en Python para automatizar el proceso de firma de constancias de asistencia médica por parte de los pacientes. Este sistema fue diseñado para integrarse con el flujo de trabajo de clínicas u hospitales que usan plataformas como **Nesys**, y permite que, una vez descargado un documento PDF con la constancia de asistencia, el paciente pueda firmarlo digitalmente en una interfaz amigable y sencilla.
+**FirmaApp** es una aplicación desarrollada en Python para automatizar el proceso de firma de constancias de asistencia médica por parte de los pacientes. Este sistema fue diseñado para integrarse con el flujo de trabajo de clínicas u hospitales que usan la plataforma **Nesys**, y permite que, una vez descargado un documento PDF con la constancia de asistencia, el paciente pueda firmarlo digitalmente en una interfaz amigable y sencilla.
 
 ---
 
@@ -57,22 +57,23 @@
 ```
 
 🧪 Requisitos
-Para ejecutar este proyecto, asegúrate de tener Python 3.9 o superior y los siguientes paquetes instalados (puedes instalarlos con pip install -r requirements.txt):
 
-    - customtkinter
+    Para ejecutar este proyecto, asegúrate de tener Python 3.9 o superior y los siguientes paquetes instalados (puedes instalarlos con pip install -r requirements.txt):
 
-    - PyMuPDF (fitz)
+        ------------------------------------
+        |    Libreria     |    Versión     |
+        ------------------------------------
+        |customtkinter    |5.2.2           |
+        |PyMuPDF (fitz)   |1.25.4          |
+        |Pillow           |11.0.0          |
+        |watchdog         |6.0.0           |
+        ------------------------------------
 
-    - Pillow
-
-    - watchdog
-
-    - sqlite3 (incluido en Python)
 
 ## 🚀 Instrucciones de Uso
 
     - Clona el repositorio: 
-    git clone https://github.com/tu-usuario/firmaapp.git
+    git clone https://github.com/Jeanpiflorez/FirmaApp/tree/master
     cd firmaapp
 
     -  Instala las dependencias:
@@ -82,9 +83,11 @@ Para ejecutar este proyecto, asegúrate de tener Python 3.9 o superior y los sig
     python main.py
 
     - Configura las rutas (solo la primera vez).
+
     Después de eso, el sistema se ejecutará de forma silenciosa y solo mostrará la ventana cuando haya un documento pendiente de firmar.
 
 📦 Compilación a Ejecutable
+
     - Con consola
     pyinstaller main.py --name=FirmaApp --onefile --icon=assets/firmaAppIcono.ico
 
@@ -92,13 +95,16 @@ Para ejecutar este proyecto, asegúrate de tener Python 3.9 o superior y los sig
     pyinstaller main.py --name=FirmaApp --noconsole --onefile --icon=assets/firmaAppIcono.ico
 
 🧑‍💻 Autor
+
     - Desarrollado por Jean Pierre Geovany Florez Desarrollador de sistemas
-    Contacto:
+      Contacto:
         - GitHub: Jeanpiflorez
         - Correo: jeanpi.g.florez@gmail.com
 
 📌 Proyecto desarrollado para
+
     - Este sistema fue desarrollado para [Digital Solutions Prevrena, Fundación Prevrenal], con el objetivo de digitalizar y automatizar la firma de constancias de asistencia médica, mejorando la eficiencia y trazabilidad del proceso en entornos clínicos.
 
 🏥 Aplicación en entornos reales
+
     - FirmaApp está pensada para clínicas y centros médicos que requieren un sistema rápido y sin fricciones para validar la asistencia del paciente con firma digital.

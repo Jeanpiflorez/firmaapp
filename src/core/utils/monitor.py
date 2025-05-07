@@ -8,7 +8,6 @@ from core.utils.logging_utils import configurar_logger
 
 logger = configurar_logger()
 
-
 class MonitorCarpeta:
     def __init__(self, ruta_directorio, callback_pdf_detectado):
         self.ruta = ruta_directorio
@@ -36,8 +35,8 @@ class MonitorCarpeta:
         class Handler(FileSystemEventHandler):
             def on_created(self, event):
                 try:
-                    if not event.is_directory and event.src_path.endswith("_CURL.pdf"):
-                        logger.info(f"Nuevo PDF detectado: {event.src_path}")
+                    if not event.is_directory and event.src_path.endswith(".pdf"):
+                        logger.info(f"Archivo PDF detectado: {event.src_path}")
                         monitor.callback(event.src_path)
                 except Exception as e:
                     logger.exception(f"Error al procesar archivo creado: {event.src_path}")
