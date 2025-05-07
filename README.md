@@ -21,32 +21,40 @@
 
 ## 📁 Estructura del Proyecto
 
-📁 firmaApp
-├── 📁 core/     
-│   ├── 📁controllers/
-│   │   └── rutas_controller.py
-│   ├── 📁models/
-│   │   └── rutas_models.py
-│   └── 📁utils/
-│       ├── config.py
-│       ├── database.py
-│       ├── monitor.py
-│       ├── pdf_utils.py
-│       └── setup_db.py
-│
-├── 📁data/
-│   └── firmaapp-prevrenal.db
-│
-├── 📁ui/
-│   └── 📁modules/
-│       ├── 📁firma/
-│       │   └── index.py
-│       └── 📁rutasconfig/
-│           └── index.py
-│
-├── main.py
-├── requirements.txt
-├── README.md
+```
+    📁 firmaApp
+    ├── 📁 assets
+    ├── 📁 data
+    │ └── firmaapp-prevrenal.db
+    ├── 📁 logs
+    │ └── app.log
+    ├── 📁 src
+    │ ├── 📁 core/
+    │ │ ├── 📁controllers/
+    │ │ │ └── rutas_controller.py
+    │ │ ├── 📁models/
+    │ │ │ └── rutas_models.py
+    │ │ ├── 📁utils/
+    │ │ │ ├── config.py
+    │ │ │ ├── monitor.py
+    │ │ │ ├── pdf_utils.py
+    │ │ │ ├── setup_db.py
+    │ │ │ └── logging_utils.py
+    │ │ ├── app_logic.py
+    │ │ ├── app.py
+    │ │ └── bootstrap.py
+    │ ├── 📁ui/
+    │ │ └── 📁modules/
+    │ │ ├── 📁firma/
+    │ │ │ └── index.py
+    │ │ └── 📁rutasconfig/
+    │ │ └── index.py
+    │ ├── main.py
+    ├── requirements.txt
+    ├── README.md
+    ├── license.txt
+    ├── .gitignore
+```
 
 🧪 Requisitos
 Para ejecutar este proyecto, asegúrate de tener Python 3.9 o superior y los siguientes paquetes instalados (puedes instalarlos con pip install -r requirements.txt):

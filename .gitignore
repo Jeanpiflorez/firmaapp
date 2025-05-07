@@ -18,6 +18,7 @@ ENV/
 *.cfg
 
 # Archivos temporales / backup
+logs/
 *.log
 *.tmp
 *.bak

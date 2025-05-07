@@ -11,7 +11,8 @@ def get_database_path():
         base_dir = os.path.dirname(sys.executable)
     else:
         # Si estamos ejecutando desde el código fuente
-        base_dir = os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '..'))
+        base_dir = os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '..', '..'))
+        print(base_dir)
 
     # Carpeta 'data' al lado del ejecutable o del proyecto
     db_dir = os.path.join(base_dir, 'data')

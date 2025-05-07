@@ -12,7 +12,7 @@ def get_logs_path():
         base_dir = os.path.dirname(sys.executable)
     else:
         # Código fuente
-        base_dir = os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '..'))
+        base_dir = os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '..', '..'))
 
     logs_dir = os.path.join(base_dir, 'logs')
     os.makedirs(logs_dir, exist_ok=True)
