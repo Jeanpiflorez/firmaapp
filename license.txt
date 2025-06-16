@@ -1,5 +1,6 @@
 Nombre del software: FirmaApp
-Versión: 1.0
+Versión: 1.1
+SO: 32bits
 Fecha: 07 de Mayo de 2025
 
 LICENCIA DE USO INTERNO
@@ -31,3 +32,19 @@ RESERVA DE DERECHOS
 Todos los derechos no concedidos expresamente quedan reservados.
 © 2025 Digital Solutions Prevrenal - Fundación Prevrenal.
 Todos los derechos reservados.
+
+TRATAMIENTO DE DATOS PERSONALES
+
+Este software recolecta y almacena datos personales, incluyendo firmas digitales, con el único propósito de 
+diligenciar formularios institucionales y documentar procesos internos de la Fundación Prevrenal.De acuerdo 
+con la Ley 1581 de 2012 de Protección de Datos Personales en Colombia, la Fundación se compromete a:
+
+    - Usar los datos únicamente para los fines para los cuales fueron recolectados.
+    - Proteger la confidencialidad e integridad de la información mediante medidas de seguridad técnicas, 
+    administrativas y legales.
+    - No transferir, ceder ni divulgar esta información a terceros sin el consentimiento expreso del titular, 
+    salvo en los casos legalmente autorizados.
+    - Permitir a los titulares de los datos ejercer sus derechos de acceso, corrección, cancelación o reclamo 
+    sobre su información personal, mediante los canales habilitados por la Fundación.
+    - Al utilizar este sistema, se entiende que los usuarios han sido informados de esta política y han 
+    autorizado expresamente el tratamiento de sus datos personales bajo los términos descritos.
